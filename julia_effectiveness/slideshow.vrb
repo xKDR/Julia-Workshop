@@ -1,0 +1,23 @@
+\frametitle{Package manager which doesn't fail}
+  \vspace{0.5cm}
+  \begin{columns}[t]
+  \column{0.5\textwidth}
+  Adding a package
+  \begin{verbatim}
+  using Pkg
+  Pkg.add("ExamplePackage")
+  \end{verbatim}
+  Updating packages
+  \begin{verbatim}
+  Pkg.update()
+  \end{verbatim}
+  \column{0.5\textwidth}
+  Removing a package
+  \begin{verbatim}
+  Pkg.rm("ExamplePackage")
+  \end{verbatim}
+  Listing installed packages
+  \begin{verbatim}
+  Pkg.status()
+  \end{verbatim}
+  \end{columns}

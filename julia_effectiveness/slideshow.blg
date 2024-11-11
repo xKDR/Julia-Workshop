@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'slideshow.blg'
+[73] biber:340> INFO - === Mon Nov 11, 2024, 13:58:21
+[90] Biber.pm:420> INFO - Reading 'slideshow.bcf'
+[164] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[180] bbl.pm:676> INFO - Writing 'slideshow.bbl' with encoding 'latin1'
+[180] bbl.pm:779> INFO - Output to slideshow.bbl
+[180] Biber.pm:131> WARN - The file 'slideshow.bcf' does not contain any citations!
+[180] Biber.pm:133> INFO - WARNINGS: 1
