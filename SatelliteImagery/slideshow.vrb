@@ -1,0 +1,21 @@
+\frametitle{Satellite image as digits}
+        \small
+        \begin{verbatim}
+48x101 Raster{Float32,2} unnamed with dimensions:
+X Mapped{Float32} Float32[72.783335, 72.7875, ..., 72.975, 72.979164] EPSG,
+Y Mapped{Float32} Float32[19.266666, 19.2625, ..., 18.854166, 18.85] EPSG
+and reference dimensions:
+Ti Sampled{DateTime} DateTime[DateTime("2012-12-01T00:00:00")]
+extent: Extent(X = (72.78125, 72.98125), Y = (18.847916, 19.26875))
+crs: EPSG:4326
+mappedcrs: EPSG:4326
+parent:
+        19.2667  19.2625  19.2583  ..  18.8625  18.8583  18.8542  18.85
+72.7833   1.52     0.84     0.64        0.09     0.06     0.07     0.06
+72.7875   1.63     1.35     0.86        0.08     0.07     0.05     0.06
+72.7917   3.3      2.28     1.26        0.09     0.08     0.07     0.11
+:                                  :                     :
+72.9708  31.7     37.09    42.36        1.23     1.06     0.97     0.93
+72.975   21.98    28.94    38.1         1.19     0.95     0.86     0.94
+72.9792  19.52    26.22    28.3         1.35     1.01     0.87     0.8
+        \end{verbatim}
