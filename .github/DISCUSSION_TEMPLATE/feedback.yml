@@ -1,5 +1,4 @@
-name: Julia Workshop Feedback Form
-description: Provide feedback about the recent Julia workshop
+title: Julia Workshop Feedback Form
 labels: [workshop-feedback]
 body:
   - type: markdown
@@ -13,7 +12,16 @@ body:
     attributes:
       label: Workshop City
       description: City where the workshop was hosted
-      placeholder: e.g., Delhi, Mumbai, etc.
+      placeholder: e.g., San Francisco, New York, Remote
+    validations:
+      required: true
+
+  - type: input
+    id: workshop_topic
+    attributes:
+      label: Workshop Topic
+      description: Main focus or title of the workshop
+      placeholder: e.g., Julia for Data Science, Advanced Julia Programming
     validations:
       required: true
 
