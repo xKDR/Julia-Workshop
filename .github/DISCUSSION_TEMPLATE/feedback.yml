@@ -1,0 +1,96 @@
+name: Julia Workshop Feedback Form
+description: Provide feedback about the recent Julia workshop
+labels: [workshop-feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Julia Workshop Feedback Form
+        Thank you for taking the time to provide feedback on the workshop!
+
+  - type: input
+    id: workshop_city
+    attributes:
+      label: Workshop City
+      description: City where the workshop was hosted
+      placeholder: e.g., Delhi, Mumbai, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: overall_rating
+    attributes:
+      label: Overall Workshop Rating
+      description: How would you rate the entire workshop experience?
+      options:
+        - 5 - Excellent
+        - 4 - Very Good
+        - 3 - Good
+        - 2 - Fair
+        - 1 - Poor
+    validations:
+      required: true
+
+  - type: textarea
+    id: most_valuable
+    attributes:
+      label: Most Valuable Aspects
+      description: What did you find most valuable about the workshop?
+      placeholder: Share the key learnings, techniques, or moments that stood out to you.
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement_areas
+    attributes:
+      label: Areas for Improvement
+      description: What could be improved in future workshops?
+      placeholder: Please provide constructive feedback on any aspects that could be enhanced.
+
+  - type: checkboxes
+    id: workshop_content
+    attributes:
+      label: Content Evaluation
+      description: How would you assess the workshop content?
+      options:
+        - label: Content was clear and well-structured
+        - label: Materials were helpful
+        - label: Pace of the workshop was appropriate
+        - label: Technical depth was suitable
+
+  - type: dropdown
+    id: technical_comfort
+    attributes:
+      label: Technical Environment
+      description: How comfortable were you with the technical setup?
+      options:
+        - Very Comfortable
+        - Somewhat Comfortable
+        - Neutral
+        - Somewhat Challenging
+        - Very Challenging
+
+  - type: textarea
+    id: future_interest
+    attributes:
+      label: Future Workshops
+      description: What topics would you like to see in future Julia workshops?
+      placeholder: Share your suggestions for upcoming workshop topics or themes.
+
+  - type: dropdown
+    id: recommend_workshop
+    attributes:
+      label: Would you recommend this workshop to others?
+      options:
+        - Yes, definitely
+        - Maybe
+        - No
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_comments
+    attributes:
+      label: Additional Comments
+      description: Any other feedback or thoughts you'd like to share?
+      placeholder: Feel free to provide any additional insights or suggestions.
